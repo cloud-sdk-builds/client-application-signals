@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-application-signals`](https://www.npmjs.com/package/@aws-sdk/client-application-signals/v/3.943.0).
+[`@aws-sdk/client-application-signals`](https://www.npmjs.com/package/@aws-sdk/client-application-signals/v/3.946.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-signals@3.943.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-signals@3.946.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-xJX4RiDt/5AUoI9CujpKbWODK7IBT52hhZdp454gB7lqaWsbD0e5aFhMZpkJXvvx
+sha384-IFLV4Wrl5r7T1mkIAuhuCRxnY38+bV9jgai20/ffsyqkBIaA5NQU0O439l0K6L4l
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-application-signals": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-signals@3.943.0/index.min.mjs"
+            "@aws-sdk/client-application-signals": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-signals@3.946.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-signals@3.943.0/index.min.mjs": "sha384-xJX4RiDt/5AUoI9CujpKbWODK7IBT52hhZdp454gB7lqaWsbD0e5aFhMZpkJXvvx"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-signals@3.946.0/index.min.mjs": "sha384-IFLV4Wrl5r7T1mkIAuhuCRxnY38+bV9jgai20/ffsyqkBIaA5NQU0O439l0K6L4l"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-application-signals": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-signals@3.943.0/index.min.mjs"
+                        "@aws-sdk/client-application-signals": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-signals@3.946.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-signals@3.943.0/index.min.mjs": "sha384-xJX4RiDt/5AUoI9CujpKbWODK7IBT52hhZdp454gB7lqaWsbD0e5aFhMZpkJXvvx"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-signals@3.946.0/index.min.mjs": "sha384-IFLV4Wrl5r7T1mkIAuhuCRxnY38+bV9jgai20/ffsyqkBIaA5NQU0O439l0K6L4l"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.943.0`)
+* Always pin to a specific version (`@3.946.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-application-signals/blob/refs/tags/3.943.0/LICENSE
+https://github.com/cloud-sdk-builds/client-application-signals/blob/refs/tags/3.946.0/LICENSE
 ```
 
 ---
